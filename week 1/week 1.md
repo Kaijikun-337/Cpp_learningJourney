@@ -19,3 +19,10 @@ On the fourth day I learned how to iterate through vectors, sets, etc.
 
 ## Day 5:
 On the fifth day I wrote one interesting code that shows in practice that pointers DO NOT update simultaneously with vector when it resizes.
+
+## Day 6:
+On the sixth day I learned what volatile and string_view are. As it turned out, the volatile is sort of a flag that gives the CPU a signal to read from RAM. It is widely used in hardware registers/signals. Meanwhile, string_view is a non-owning reference, meaning that it can point to string just like char* but it (string_view) knows the length of the string and thus making it more flexible.
+* String_view: is just a buffed char*, it's so buffed that it can easily handle any contiguous character sequence
+
+## Day 7:
+On the last day of the first week, I wrote a code that shows where it safe to use string_view
